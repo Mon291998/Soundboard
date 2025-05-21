@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sound Board</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f0f0f0;
+        padding: 20px;
+      }
+
+      h2 {
+        color: #333;
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 15px 30px;
+        font-size: 1.1rem;
+        background: linear-gradient(145deg, #6e7bff, #4e5dff);
+        border: none;
+        border-radius: 8px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 5px #4e5dff, 0 -5px #6e7bff;
+        transition: all 0.3s ease;
+        margin: 10px;
+      }
+
+      button:hover {
+        background: linear-gradient(145deg, #4e5dff, #6e7bff);
+        box-shadow: 0 8px #4e5dff, 0 -8px #6e7bff;
+        transform: translateY(-4px);
+      }
+
+      button:active {
+        background: linear-gradient(145deg, #4e5dff, #6e7bff);
+        box-shadow: 0 2px #4e5dff, 0 -2px #6e7bff;
+        transform: translateY(2px);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Sound Board</h2>
+    <button id="sound1">Sound 1</button>
+    <button id="sound2">Sound 2</button>
+    <button id="sound3">Sound 3</button>
+    <script src="mon.js"></script>
+  </body>
+</html>
